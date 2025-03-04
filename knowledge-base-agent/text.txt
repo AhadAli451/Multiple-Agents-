@@ -1,0 +1,35 @@
+first this is way olama version 
+ollam list 
+ollam run 
+this is a way of olam work and 
+
+this is creaw ai task agents 
+creawai create flow project 
+cd 
+ollam ls
+
+base_url
+
+pro 3
+
+create folder = developer crew = config =  in this is grupe 
+
+agent.ymal = junior coder:
+             role:
+             jounior python dev
+             goal:>
+             write code for solution of problem "{problem} do not apply python type"
+             backsorie:>
+
+
+             senior coder:
+             role:
+             senior python dev
+             goal:>
+             write currect the code  "{problem}"
+             backsorie:>     
+
+task.ymal write_code:
+          des:>
+          write a code without python typing for solution 
+          agent 
