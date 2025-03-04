@@ -1,0 +1,14 @@
+write_code:
+  description: >
+    you have to write HTML and CSS code for this problem '{problem}'
+  expected_output: >
+    return the HTML and CSS code only
+  agent: front_end_developer
+
+give_feedback:
+  description: >
+    you have to give feedback to user like this is code is good if is not so you can tell ma what i change it for this problem '{problem}'
+    you are only give feedbacker
+  expected_output: >
+    return the feedback only
+  agent: review_feedback

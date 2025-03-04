@@ -1,0 +1,22 @@
+[project]
+name = "multiple_agents1"
+version = "0.1.0"
+description = "multiple-agents1 using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0",
+]
+
+[project.scripts]
+kickoff = "multiple_agents1.main:kickoff"
+plot = "multiple_agents1.main:plot"
+mul-agents = "multiple_agents1.main1:kickoff"
+kn = "multiple_agents1.main1:my_knowledge"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"
